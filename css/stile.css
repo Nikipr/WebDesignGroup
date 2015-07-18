@@ -1,0 +1,156 @@
+
+.jumbotron{
+    background: url("../img/pattern.png");
+    background-size: cover;
+    height: 600px;
+}
+
+
+.navbar.navbar-default{
+    height: 90px;
+    background-color: white;
+    border-color: transparent;
+    color:#4A4A49;
+    font-size: medium;
+
+}
+
+
+#logo{
+    margin-top: -18px;
+    width: 88px;
+    height: 88px;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 90px 0 20px 0;
+ }
+
+
+.ralewayB{
+    font-family:'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.ralewayC{
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#sottomenu{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#sottomenu li a:hover{
+    background-color: #E84640;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.titleSezione{
+    background-color: #E84640;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+}
+
+
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.sezione1{
+    margin-top: 50px;
+    border-right: solid 3px #CACACA;
+    border-left: solid 3px #CACACA;
+}
+
+
+.bordino{
+    border-left: solid 3px #CACACA;
+    border-right: solid 3px #CACACA;
+}
+
+.caricatura{
+    width: 200px;
+    height: 180px;
+}
+
+img.centrata{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.nome{
+    text-align: center;
+}
+
+.esperienza{
+    text-align: center;
+    background-color: #CACACA;
+}
+
+#verde:hover{
+    color: #95C11F;
+}
+
+.testoGrigio{
+   background-color: #CACACA;
+
+}
+
+
+.sezione3{
+    background-color: #CACACA;
+}
+
+.foto>img{
+   width: 100%;
+}
+.foto{
+    overflow-y:hidden;
+}
+
+.icona{
+    width: 45px;
+    height: 45px;
+
+}
+
+.servizi{
+    text-align: center;
+}
+
+.grigio{
+    background-color: #4A4A49;
+    text-align: center;
+}
+
+.social{
+    color: white;
+}
+
+.Isocial{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+
+}
+
+
+.Isocial#google{
+    margin-left: 20px;
+    margin-right: 20px;
+}
