@@ -12,7 +12,6 @@
     border-color: transparent;
     color:#4A4A49;
     font-size: medium;
-
 }
 
 
@@ -20,6 +19,19 @@
     margin-top: -18px;
     width: 88px;
     height: 88px;
+}
+
+#logo:hover{
+    transition: width 2s, height 2s, transform 2s;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+
+#home{
+    color: #E84640;
+    border-radius: 10px;
+
 }
 
 .raleway{
@@ -36,6 +48,14 @@
     font-weight: 700;
 }
 
+a.Bbianco{
+    color: white;
+}
+
+a.Bbianco:hover{
+    color: white;
+}
+
 .ralewayC{
     font-family:'Raleway', sans-serif;
     font-size: 14px;
@@ -46,7 +66,14 @@
 
 #sottomenu{
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 5%;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+}
+
+#bs-example-navbar-collapse-1{
+    border-color: transparent;
 }
 
 #sottomenu li a:hover{
@@ -103,12 +130,28 @@ img.centrata{
 }
 
 #verde:hover{
+    text-shadow:-1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
     color: #95C11F;
+    text-decoration: none;
+}
+
+a#verde{
+    text-shadow:-1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+     color: #95C11F;
+
 }
 
 .testoGrigio{
    background-color: #CACACA;
 
+}
+
+.testoGrigio.boxGrigio1{
+    padding-bottom: 20px;
+}
+
+.testoGrigio.boxGrigio2{
+    padding-bottom: 97px;
 }
 
 
@@ -120,7 +163,7 @@ img.centrata{
    width: 100%;
 }
 .foto{
-    overflow-y:hidden;
+    overflow:hidden;
 }
 
 .icona{
@@ -138,19 +181,55 @@ img.centrata{
     text-align: center;
 }
 
+.colonnaLunga{
+    background-color: #4A4A49;
+    padding-bottom: 45px;
+}
+
+
 .social{
     color: white;
 }
 
 .Isocial{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 40px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 7px;
+}
+
+.Isocial:hover{
+    background-color: #3A5795;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
 
 }
 
+h5#email{
+    text-align: center;
+    color: white;
+    margin: 0 10px 0 20px;
+    padding-bottom: 30px;
+}
 
-.Isocial#google{
-    margin-left: 20px;
-    margin-right: 20px;
+h5#email:hover{
+    color: white;
+}
+
+/*MEDIA QUERY*/
+
+
+@media (max-width: 839px){
+    .mediaQ{
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width: 1200px){
+    #logo:hover{
+        margin-top: -18px;
+        width: 88px;
+        height: 88px;
+    }
 }
